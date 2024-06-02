@@ -7,7 +7,6 @@
     <link rel="icon" href="assets/favicon.ico" type="image/xicon">
     <link rel="stylesheet" href='style.css'>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <!-- <script defer src='script.js'></script> -->
 </head>
 <body>
     <div id="title">
@@ -40,8 +39,9 @@
         </select>
         <label for='day-input' id="country">Day (optional):</label>
         <input type="number" id="day-input" min='1' max='31' placeholder="Input day from 1-31 or leave this option" onclick=this.select()>
+        <input type="submit" id="input-button" value="Get Holidays">
         <div id="button-container">
-            <input type="submit" id="input-button" value="Get Holidays">
+            <!-- <input type="submit" id="input-button" value="Get Holidays"> -->
             <button id='reset-button'>Clear Holidays</button>
             <button id='today-button'>Use today's date!</button>
         </div>

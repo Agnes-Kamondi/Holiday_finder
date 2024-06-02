@@ -1,19 +1,20 @@
 body {
     margin: auto 0;
-    text-align: center;   
+    text-align: center; 
+    background-color: rgb(167, 187, 187);  
   }
   form{
-    background: maroon;
-    width: 700px;
+    background: rgb(31, 103, 121);
+    width: 1300px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 5;
-    font-size: 20px;
-    height: 400px;
-    color: aliceblue;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 6;
+    font-size: xx-large;
+    height: 600px;
+    color: rgb(252, 252, 252);
   }
   #button-container {
     grid-column: span 2;
@@ -22,26 +23,35 @@ body {
     justify-content: space-around;
   }
   main {
-    background: rgb(2, 127, 155);
+    background: rgb(13, 59, 70);
+    padding: 50px;
   }
   h1 {
     padding: 0;
     margin: 0;
+    font-size: xxx-large;
   }
   p, h3 {
     padding: 0 10px;
+    font-size: x-large;
   }
   input {
     margin: 5px;
-    width: 250px;
-    background-color: rgb(250, 237, 215);
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    height: 60px;
     border: none;
   }
   select {
     margin: 5px;
-    width: 254px;
-    background: rgb(250, 237, 215);
+    width: 500px;
+    border-radius: 10px;
+    font-size: x-large;
+    background: rgb(255, 255, 254);
     border: none;
+    height: 60px;
   }
   section {
     display: inline-block;
@@ -50,8 +60,9 @@ body {
     height: 325px;
     margin: 5px;
     border: 1px solid black;
-    border-radius: 10%;
-    background: rgb(250, 237, 215);
+    border-radius: 10px;
+    background: rgb(236, 235, 232);
+    padding-top: 2%;
   }
   button {
     place-self: center;
@@ -60,13 +71,14 @@ body {
     padding: 0 0 0 3px;
   }
   #title {
-    background-color: rgb(157, 221, 221);
+    background-color: rgb(53, 165, 165);
     border-radius: 10px;
     width: 600px;
+    height: 200px;
     margin: 0 auto 10px auto;
     padding: 10px;
-    font-size: 25px;
-    margin-top: 5%;
+    font-size: xx-large;
+    margin-top: 1%;
   }
   #title p {
     padding: 5px 0 0 0;
@@ -74,18 +86,27 @@ body {
   #title h1 {
     padding: 0 0 10px 0;
   }
-  #input-button, #today-button, #reset-button{
-    border: 1px solid black;
-    width: 150px;
-    height: 40px;
-    background: rgb(205, 235, 238);
-    border-radius: 5px;
+  #input-button{
+    width: 300px;
+    height: 60px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-color:rgb(118, 226, 238);
+  }
+   #today-button, #reset-button{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    font-size: x-large;
+    text-align: center;
+    background: rgb(118, 226, 238);
+    border-radius: 10px;
 
   }
   #card-container {
     margin: 20px auto;
     width: 80%;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
