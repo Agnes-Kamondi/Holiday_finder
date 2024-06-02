@@ -1,0 +1,966 @@
+body {
+    margin: auto 0;
+    text-align: center; 
+    background-image: url(./images/backkkk.avif);  
+  }
+
+  form{
+    background: rgb(121, 31, 103);
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 6;
+    font-size: xx-large;
+    height: 600px;
+    color: rgb(252, 252, 252);
+  }
+
+  #button-container {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  main {
+    background: rgb(220, 170, 191);
+    padding: 50px;
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0;
+    font-size: xxx-large;
+  }
+
+  p, h3 {
+    padding: 0 10px;
+    font-size: x-large;
+  }
+
+  input {
+    margin: 5px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    height: 60px;
+    padding-left: 20px;
+    border: none;
+  }
+  select {
+    margin: 5px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: x-large;
+    background: rgb(255, 255, 254);
+    border: none;
+    height: 60px;
+  }
+
+  section {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 325px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(236, 235, 232);
+    padding-top: 2%;
+  }
+
+  button {
+    place-self: center;
+  }
+
+  ::placeholder {
+    padding: 0 0 0 3px;
+  }
+
+  #title {
+    background-color: rgb(220, 170, 191);
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    font-size: xx-large;
+    margin-top: 1%;
+  }
+
+  #title p {
+    padding: 5px 0 0 0;
+  }
+
+  #title h1 {
+    padding: 0 0 10px 0;
+  }
+
+  #input-button{
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+    color: white;
+    margin-left: 560px;
+    border-radius: 10px;
+    background-color:rgb(26, 3, 37);
+   
+  }
+
+   #reset-button{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background: rgb(26, 3, 37);
+    border-radius: 10px;
+    width: 15%;
+    padding: 15px;
+
+  }
+
+  #today-button {
+    width: 220px;
+    height: 60px;
+    display: flex;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background: rgb(26, 3, 37);
+    border-radius: 10px;
+    padding: 15px;
+   
+  }
+
+  #card-container {
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .first-choice {
+    color: rgb(119,119,119);
+    height: 50px;
+    margin-top: 5%;
+  }
+
+  @media screen and (min-width:280px) and (max-width: 480px){
+    body {
+      margin: auto 0;
+      text-align: center; 
+      background-image: url(./images/backkkk.avif);  
+    }
+  
+    form{
+      background: rgb(121, 31, 103);
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 0px;
+      display: grid;
+      grid-template-columns: 40% 50%;
+      grid-template-rows: 5;
+      font-size: large;
+      height: 400px;
+      color: rgb(252, 252, 252);
+    }
+  
+    #button-container {
+      grid-column: span 2;
+      display: flex;
+      margin-top: 0px;
+      margin-left: -40px;
+    }
+  
+    main {
+      background: rgb(220, 170, 191);
+      padding: 20px;
+    }
+  
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size:x-large;
+    }
+  
+    p, h3 {
+      padding: 0 10px;
+      font-size: large;
+    }
+  
+    input {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-size: large;
+      height: 30px;
+      padding-left: 0px;
+      border: none;
+    }
+    select {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      font-size: large;
+      background: rgb(255, 255, 254);
+      border: none;
+      height: 60px;
+    }
+  
+    section {
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      height: 300px;
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background: rgb(236, 235, 232);
+      padding-top: 2%;
+    }
+  
+    button {
+      place-self: center;
+    }
+  
+    ::placeholder {
+      padding: 0 0 0 3px;
+    }
+  
+    #title {
+      background-color: rgb(220, 170, 191);
+      border-radius: 10px;
+      width: 200px;
+      height: 130px;
+      margin: 0 auto 10px auto;
+      padding: 10px;
+      font-size: small;
+      margin-top: 1%;
+    }
+  
+    #title p {
+      padding: 5px 0 0 0;
+    }
+  
+    #title h1 {
+      padding: 0 0 10px 0;
+    }
+  
+    #input-button{
+      width: 150px;
+      height: 60px;
+      padding: 15px;
+      color: white;
+      margin-left: 100px;
+      border-radius: 10px;
+      background-color:rgb(26, 3, 37);
+     
+    }
+  
+     #reset-button{
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      width: 15%;
+      padding: 15px;
+  
+    }
+  
+    #today-button {
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      padding: 5px;
+     
+    }
+  
+    #card-container {
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+    
+    .first-choice {
+      color: rgb(119,119,119);
+      height: 50px;
+      margin-top: 5%;
+    }
+  
+  }
+  @media screen and (min-width:481px) and (max-width: 680px){
+    body {
+      margin: auto 0;
+      text-align: center; 
+      background-image: url(./images/backkkk.avif);  
+    }
+  
+    form{
+      background: rgb(121, 31, 103);
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 0px;
+      display: grid;
+      grid-template-columns: 40% 50%;
+      grid-template-rows: 5;
+      font-size: large;
+      height: 400px;
+      color: rgb(252, 252, 252);
+    }
+  
+    #button-container {
+      grid-column: span 2;
+      display: flex;
+      margin-top: 0px;
+      margin-left: -40px;
+    }
+  
+    main {
+      background: rgb(220, 170, 191);
+      padding: 20px;
+    }
+  
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size:x-large;
+    }
+  
+    p, h3 {
+      padding: 0 10px;
+      font-size: large;
+    }
+  
+    input {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-size: large;
+      height: 30px;
+      padding-left: 0px;
+      border: none;
+    }
+    select {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      font-size: large;
+      background: rgb(255, 255, 254);
+      border: none;
+      height: 60px;
+    }
+  
+    section {
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      height: 300px;
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background: rgb(236, 235, 232);
+      padding-top: 2%;
+    }
+  
+    button {
+      place-self: center;
+    }
+  
+    ::placeholder {
+      padding: 0 0 0 3px;
+    }
+  
+    #title {
+      background-color: rgb(220, 170, 191);
+      border-radius: 10px;
+      width: 200px;
+      height: 130px;
+      margin: 0 auto 10px auto;
+      padding: 10px;
+      font-size: small;
+      margin-top: 1%;
+    }
+  
+    #title p {
+      padding: 5px 0 0 0;
+    }
+  
+    #title h1 {
+      padding: 0 0 10px 0;
+    }
+  
+    #input-button{
+      width: 150px;
+      height: 60px;
+      padding: 15px;
+      color: white;
+      margin-left: 100px;
+      border-radius: 10px;
+      background-color:rgb(26, 3, 37);
+     
+    }
+  
+     #reset-button{
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      width: 15%;
+      padding: 15px;
+  
+    }
+  
+    #today-button {
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      padding: 5px;
+     
+    }
+  
+    #card-container {
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+    
+    .first-choice {
+      color: rgb(119,119,119);
+      height: 50px;
+      margin-top: 5%;
+    }
+  
+  }
+  @media screen and (min-width:681px) and (max-width: 880px){
+    body {
+      margin: auto 0;
+      text-align: center; 
+      background-image: url(./images/backkkk.avif);  
+    }
+  
+    form{
+      background: rgb(121, 31, 103);
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 0px;
+      display: grid;
+      grid-template-columns: 40% 50%;
+      grid-template-rows: 5;
+      font-size: large;
+      height: 400px;
+      color: rgb(252, 252, 252);
+    }
+  
+    #button-container {
+      grid-column: span 2;
+      display: flex;
+      margin-top: 0px;
+      margin-left: -40px;
+    }
+  
+    main {
+      background: rgb(220, 170, 191);
+      padding: 20px;
+    }
+  
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size:x-large;
+    }
+  
+    p, h3 {
+      padding: 0 10px;
+      font-size: large;
+    }
+  
+    input {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-size: large;
+      height: 30px;
+      padding-left: 0px;
+      border: none;
+    }
+    select {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      font-size: large;
+      background: rgb(255, 255, 254);
+      border: none;
+      height: 60px;
+    }
+  
+    section {
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      height: 300px;
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background: rgb(236, 235, 232);
+      padding-top: 2%;
+    }
+  
+    button {
+      place-self: center;
+    }
+  
+    ::placeholder {
+      padding: 0 0 0 3px;
+    }
+  
+    #title {
+      background-color: rgb(220, 170, 191);
+      border-radius: 10px;
+      width: 200px;
+      height: 130px;
+      margin: 0 auto 10px auto;
+      padding: 10px;
+      font-size: small;
+      margin-top: 1%;
+    }
+  
+    #title p {
+      padding: 5px 0 0 0;
+    }
+  
+    #title h1 {
+      padding: 0 0 10px 0;
+    }
+  
+    #input-button{
+      width: 150px;
+      height: 60px;
+      padding: 15px;
+      color: white;
+      margin-left: 100px;
+      border-radius: 10px;
+      background-color:rgb(26, 3, 37);
+     
+    }
+  
+     #reset-button{
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      width: 15%;
+      padding: 15px;
+  
+    }
+  
+    #today-button {
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      padding: 5px;
+     
+    }
+  
+    #card-container {
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+    
+    .first-choice {
+      color: rgb(119,119,119);
+      height: 50px;
+      margin-top: 5%;
+    }
+  
+  }
+  @media screen and (min-width:881px) and (max-width: 1020px){
+    body {
+      margin: auto 0;
+      text-align: center; 
+      background-image: url(./images/backkkk.avif);  
+    }
+  
+    form{
+      background: rgb(121, 31, 103);
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 0px;
+      display: grid;
+      grid-template-columns: 40% 50%;
+      grid-template-rows: 5;
+      font-size: large;
+      height: 400px;
+      color: rgb(252, 252, 252);
+    }
+  
+    #button-container {
+      grid-column: span 2;
+      display: flex;
+      margin-top: 0px;
+      margin-left: -40px;
+    }
+  
+    main {
+      background: rgb(220, 170, 191);
+      padding: 20px;
+    }
+  
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size:x-large;
+    }
+  
+    p, h3 {
+      padding: 0 10px;
+      font-size: large;
+    }
+  
+    input {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-size: large;
+      height: 30px;
+      padding-left: 0px;
+      border: none;
+    }
+    select {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      font-size: large;
+      background: rgb(255, 255, 254);
+      border: none;
+      height: 60px;
+    }
+  
+    section {
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      height: 300px;
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background: rgb(236, 235, 232);
+      padding-top: 2%;
+    }
+  
+    button {
+      place-self: center;
+    }
+  
+    ::placeholder {
+      padding: 0 0 0 3px;
+    }
+  
+    #title {
+      background-color: rgb(220, 170, 191);
+      border-radius: 10px;
+      width: 200px;
+      height: 130px;
+      margin: 0 auto 10px auto;
+      padding: 10px;
+      font-size: small;
+      margin-top: 1%;
+    }
+  
+    #title p {
+      padding: 5px 0 0 0;
+    }
+  
+    #title h1 {
+      padding: 0 0 10px 0;
+    }
+  
+    #input-button{
+      width: 150px;
+      height: 60px;
+      padding: 15px;
+      color: white;
+      margin-left: 100px;
+      border-radius: 10px;
+      background-color:rgb(26, 3, 37);
+     
+    }
+  
+     #reset-button{
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      width: 15%;
+      padding: 15px;
+  
+    }
+  
+    #today-button {
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: large;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      padding: 5px;
+     
+    }
+  
+    #card-container {
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+    
+    .first-choice {
+      color: rgb(119,119,119);
+      height: 50px;
+      margin-top: 5%;
+    }
+  
+  }
+  @media screen and (min-width:1021px) and (max-width: 1500px){
+    body {
+      margin: auto 0;
+      text-align: center; 
+      background-image: url(./images/backkkk.avif);  
+    }
+  
+    form{
+      background: rgb(121, 31, 103);
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 0px;
+      display: grid;
+      grid-template-columns: 40% 50%;
+      grid-template-rows: 5;
+      font-size: large;
+      height: 400px;
+      color: rgb(252, 252, 252);
+    }
+  
+    #button-container {
+      grid-column: span 2;
+      display: flex;
+      margin-top: 0px;
+      margin-left: -40px;
+    }
+  
+    main {
+      background: rgb(220, 170, 191);
+      padding: 20px;
+    }
+  
+    h1 {
+      padding: 0;
+      margin: 0;
+      font-size:large;
+    }
+  
+    p, h3 {
+      padding: 0 10px;
+      font-size: small;
+    }
+  
+    input {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-size: small;
+      height: 60px;
+      padding-left: 0px;
+      border: none;
+    }
+    select {
+      margin: 5px;
+      width: 200px;
+      border-radius: 10px;
+      font-size: small;
+      background: rgb(255, 255, 254);
+      border: none;
+      height: 60px;
+    }
+  
+    section {
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      height: 300px;
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background: rgb(236, 235, 232);
+      padding-top: 2%;
+    }
+  
+    button {
+      place-self: center;
+    }
+  
+    ::placeholder {
+      padding: 0 0 0 3px;
+    }
+  
+    #title {
+      background-color: rgb(220, 170, 191);
+      border-radius: 10px;
+      width: 200px;
+      height: 130px;
+      margin: 0 auto 10px auto;
+      padding: 10px;
+      font-size: small;
+      margin-top: 1%;
+    }
+  
+    #title p {
+      padding: 5px 0 0 0;
+    }
+  
+    #title h1 {
+      padding: 0 0 10px 0;
+    }
+  
+    #input-button{
+      width: 150px;
+      height: 60px;
+      padding: 15px;
+      color: white;
+      margin-left: 450px;
+      border-radius: 10px;
+      font-size: small;
+      background-color:rgb(26, 3, 37);
+     
+    }
+  
+     #reset-button{
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: small;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      width: 15%;
+      padding: 15px;
+  
+    }
+  
+    #today-button {
+      width: 150px;
+      height: 60px;
+      display: flex;
+      font-size: small;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      background: rgb(26, 3, 37);
+      border-radius: 10px;
+      padding: 5px;
+     
+    }
+  
+    #card-container {
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      font-size: small;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+    
+    .first-choice {
+      color: rgb(119,119,119);
+      height: 50px;
+      margin-top: 5%;
+    }
+  
+  }
