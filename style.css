@@ -1,11 +1,14 @@
 body {
     margin: auto 0;
     text-align: center; 
-    background-image: url(./images/backkkk.avif);  
+    background-image: url(images/rocks.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
   form{
-    background: rgb(121, 31, 103);
+    background:#F1A65A;
     width: 1300px;
     margin: 0 auto;
     padding: 20px;
@@ -26,7 +29,7 @@ body {
   }
 
   main {
-    background: rgb(220, 170, 191);
+    background:#D26272;
     padding: 50px;
   }
 
@@ -82,7 +85,7 @@ body {
   }
 
   #title {
-    background-color: rgb(220, 170, 191);
+    background-color:#D26272;
     border-radius: 10px;
     width: 600px;
     height: 200px;
@@ -107,7 +110,7 @@ body {
     color: white;
     margin-left: 560px;
     border-radius: 10px;
-    background-color:rgb(26, 3, 37);
+    background-color:#B04766;
    
   }
 
@@ -120,7 +123,7 @@ body {
     color: white;
     border: none;
     border-radius: 40px;
-    background: rgb(26, 3, 37);
+    background: #B04766;
     border-radius: 10px;
     width: 15%;
     padding: 15px;
@@ -136,7 +139,7 @@ body {
     color: white;
     border: none;
     border-radius: 40px;
-    background: rgb(26, 3, 37);
+    background: #B04766;
     border-radius: 10px;
     padding: 15px;
    
